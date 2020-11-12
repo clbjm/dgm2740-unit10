@@ -53,7 +53,21 @@ nav ul li.active a {
     background-color: #000;
     color: #fff;
 }
+#hamburgerBtn span:nth-child(1) {display: block}
+#hamburgerBtn span:nth-child(2) {display: none}
+
+#hamburgerBtn.open span:nth-child(1) {display: none}
+#hamburgerBtn.open span:nth-child(2) {display: block}
+#primaryNav {
+    height: 0;
+    overflow: hidden;
+}
+#primaryNav.open {
+height: auto;
+}
+
 /*----------- MAIN --------------*/
+
 main {
     padding: 0 2%;
     min-height: 20rem;
@@ -120,6 +134,7 @@ form label.top input:valid {
 img {
     width: 50%;
 }
+
 /*----------- FOOTER --------------*/
 footer {
     background-color: #ddd;
