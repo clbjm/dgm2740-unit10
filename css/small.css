@@ -102,10 +102,10 @@ form label.top input, form label.top select {
     max-width: 20rem;
     background-color: rgba(0, 0, 0, 0.1);
 }
-.subnav:hover .subnav-content {
+.parent:hover {
     display: block;
 }
-.subnav {
+.parent {
     float: left;
     overflow: hidden;
   }
@@ -132,7 +132,7 @@ form label.top input:valid {
 }
 
 img {
-    width: 50%;
+    width: 5%;
 }
 
 /*----------- FOOTER --------------*/

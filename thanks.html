@@ -33,22 +33,26 @@
 </header>
     
     
-<!-- NAVIGATION HERE -->
-<nav class="clearfix">
-    <ul>
-        <li><a href="#">home</a></li>
-        <li><a href="#">products</a></li>
-        <li><a href="#">deals</a></li>
-        <button class="subnavbtn"><li class="active"><a href="#">order</a></li>
-        <div class="subnav-content">
-            <li><a href="#">water bottles</a></li>
-            <li><a href="#">hats</a></li>
-            <li><a href="#">shirts</a></li>
-          </div>
-          </button>
-          <li><a href="#">customer reviews</a></li>
-    </ul>
-</nav>
+    <!-- NAVIGATION HERE -->
+    <nav class="clearfix">
+        <button id="hamburgerBtn">
+            <span><i>&equiv;</i>OPEN</span>
+            <span><i>&otimes;</i>CLOSE</span>
+        </button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="#">home</a></li>
+            <li><a href="#">products</a></li>
+            <li><a href="#">deals</a></li>
+            <li class="parent"><a href="#">order</a>
+                <ul>
+                    <li><a href="#">water bottles</a></li>
+                    <li><a href="#">hats</a></li>
+                    <li><a href="#">shirts</a></li>
+                </ul>
+            </li>
+            <li><a href="#">customer reviews</a></li>
+        </ul>
+    </nav>
     
     
 <!-- CONTENT HERE -->

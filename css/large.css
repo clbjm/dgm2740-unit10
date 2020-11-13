@@ -5,6 +5,9 @@
         max-width: 64rem;
         margin:auto;
     }
+    nav button {
+        display: none;
+    }
 
 /*----------- BODY --------------*/
 
@@ -15,21 +18,33 @@
 
 
 /*----------- NAVIGATION --------------*/
-
-.subnav:hover .subnav-content {
+nav button {display: none;}
+nav ul.hide {display: block;}
+nav ul {margin-left: 2%;}
+nav ul li {
+    float: left;
+}
+nav a {
     display: block;
 }
-.subnav {
-    float: left;
-    overflow: hidden;
-  }
-  .navbar {
-    overflow: hidden;
-    background-color: #333; 
-  }
+nav ul li a {border: none;
+border-right: 1px solid rgba(175, 175, 175, 0.3);
+background-color: rgb(175, 175, 175);
+    color: #000;
+padding: .8rem 1rem;
+}
+    nav ul {margin-left: 2%;}
+    nav ul li {width: auto;}
+    nav ul li:first-child a {border-left: 1px solid #777;}
+    nav ul li:last-child a {border-right: 1px solid #777;}
+    nav ul li a{padding: .5rem 1rem;}
+    .parent {
+        float: left;
+        overflow: visible;
+      }
   img {
       border-style: none;
-      width: 1%;
+      width: 5%;
       float: none;
   }
 /*----------- MAIN --------------*/
