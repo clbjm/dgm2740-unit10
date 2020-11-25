@@ -42,6 +42,7 @@ nav ul li a {
     text-decoration: none;
     font-size: .9rem;
     text-align: center;
+float: left;
 }
 nav ul li:first-child a {border-left: none;}
 
