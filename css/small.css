@@ -100,7 +100,6 @@ height: auto;
 .parent {
   display: block;
   position: absolute;
-  min-width: 160px;
   z-index: 1;
 }
 
@@ -108,9 +107,8 @@ height: auto;
 .parent a {
   float:none;
   text-decoration: none;
-  display: flex;
+  display: block;
   text-align: left;
-Flex-direction: column;
 }
 
 /*----------- MAIN --------------*/
