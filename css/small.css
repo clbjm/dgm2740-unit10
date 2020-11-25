@@ -78,9 +78,10 @@ Background; #ededed;
 #primaryNav li:hover ul {
     display:block;
 }
-.parent a {
+div.parent a {
 Float: left;
-text-align: left;
+text-align: right;
+
 }
 
 /*----------- MAIN --------------*/
