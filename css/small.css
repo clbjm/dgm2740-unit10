@@ -108,7 +108,7 @@ height: auto;
 .parent a {
   float:none;
   text-decoration: none;
-  display: block;
+  display: flex;
   text-align: left;
 Flex-direction: column;
 }
