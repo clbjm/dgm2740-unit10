@@ -67,6 +67,7 @@ height: auto;
 }
 #primaryNav li.parent > a::after {
 display: flex;
+flex: column;
     content: "\25BC";
     font-size: .75rem;
     color: rgba(255,255,255,.5);
