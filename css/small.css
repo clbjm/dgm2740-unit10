@@ -110,6 +110,7 @@ height: auto;
   text-decoration: none;
   display: block;
   text-align: left;
+Flex-direction: column;
 }
 
 /*----------- MAIN --------------*/
