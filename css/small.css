@@ -78,20 +78,20 @@ height: auto;
     display:block;
 }
 
-.primaryNav {position: relative;}
-  .primaryNav a {
+#primaryNav {position: relative;}
+  #primaryNav a {
     position: absolute;
     right: 0;
     top: 0;
   }
-  .primaryNav a {
+  #primaryNav a {
     float: none;
     display: none;
     text-align: left;
   }
-  .primaryNav .parent {float: none;}
-  .primaryNav .parent {position: relative;}
-  .primaryNav .parent {
+  #primaryNav .parent {float: none;}
+  #primaryNav .parent {position: relative;}
+  #primaryNav .parent {
     display: block;
     width: 100%;
     text-align: left;
