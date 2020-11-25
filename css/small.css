@@ -86,13 +86,13 @@ height: auto;
   }
   .primaryNav a {
     float: none;
-    display: block;
+    display: none;
     text-align: left;
   }
   .primaryNav .parent {float: none;}
   .primaryNav .parent {position: relative;}
   .primaryNav .parent {
-    display: none;
+    display: block;
     width: 100%;
     text-align: left;
   }
