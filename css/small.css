@@ -66,6 +66,7 @@ nav ul li.active a {
 height: auto;
 }
 #primaryNav li.parent > a::after {
+display: flex;
     content: "\25BC";
     font-size: .75rem;
     color: rgba(255,255,255,.5);
