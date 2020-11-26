@@ -29,17 +29,19 @@
 <body>
     <!-- HEADER HERE -->
     <header class="clearfix">
-        <img src="images/asterisk.png" max-width="20rem">
+        <img src="images/asterisk.png" alt="logo">
         <h1>Swag Shop</h1>
     </header>
 
 
     <!-- NAVIGATION HERE -->
     <nav class="clearfix">
+
         <button id="hamburgerBtn">
-            <span><i>&equiv;</i>OPEN</span>
-            <span><i>&otimes;</i>CLOSE</span>
+            <span><i>&equiv;</i></span>
+            <span><i>&otimes;</i></span>
         </button>
+
         <ul id="primaryNav" class="hide">
             <li><a href="#">home</a></li>
             <li><a href="#">products</a></li>
@@ -76,32 +78,34 @@
 
             <fieldset>
                 <legend>swag information</legend>
-                <label class="sbs"><span>date needed</span><input type="date" name="completeDate" /></label>
-                <label class="sbs"><span>buisness name</span><input buisness name="buisness" type="text" /></label>
-                <label class="sbs"><span>buisness URL</span><input type="url" name ="url" placeholder="https://www.google.com" /></label>
+
+                <label class="sbs"><span>date</span><input name="date" type="date" /></label>
+
+                <label class="sbs"><span>buisness name</span><input name="buisness" type="text" /></label>
+                <label class="sbs"><span>buisness URL</span><input name ="url" type="url"  placeholder="https://www.google.com" /></label>
                 <label class="sbs"><span>color</span></label><select name="color">
-                    <option value="color">please select</option>
-                    <option value="red">red</option>
-                    <option value="yellow">yellow</option>
-                    <option value="green">green</option>
-                    <option value="black">black</option>
-                    <option value="orange">orange</option>
-                    <option value="blue">blue</option>
-                    </select><br><br>
-                <label class="sbs"><span>quanity</span><input quanity="quanity" type="text" /></label>
+                <option value="color">please select</option>
+                <option value="red">red</option>
+                <option value="yellow">yellow</option>
+                <option value="green">green</option>
+                <option value="black">black</option>
+                <option value="orange">orange</option>
+                <option value="blue">blue</option>
+                </select>
+                <label class="sbs"><span>quanity</span><input name="quanity" type="text" /></label>
                 <label class="sbs"><span>material</span></label>
-                <label class="sbs"><input type="radio" name="alunium" /> alunium</label>
-                <label class="sbs"><input type="radio" name="plastic" /> plastic</label>
+                <input type="radio" name="material" /> alunium</label><br>
+                <input type="radio" name="material" /> plastic</label>
             </fieldset>
 
 
             <fieldset>
                 <legend>payment information</legend>
-                <label class="top"><span>name on card*</span><input name on card="name on card" type="text" required
+                <label class="top"><span>name on card*</span><input name ="name on card" type="text" required
                         class="card" /></label>
-                <label class="top"><span>card number*</span><input card number="card number" type="text" required
+                <label class="top"><span>card number*</span><input name="card number" type="text" required
                         class="card" /></label>
-                <label class="top"><span>experation date*</span><input experation date="experation date" type="text" required
+                <label class="top"><span>experation date*</span><input name="experation date" type="text" required
                         class="card" /></label>
             </fieldset>
             <input type="submit" value="order my swag" class="submitBtn">

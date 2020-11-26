@@ -1,4 +1,5 @@
 /* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+
 html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 /*----------- apply a natural box layout model to all elements --------------*/
@@ -21,6 +22,56 @@ header h1 {margin: 0;}
 header h2 {margin: 0; font-weight: normal;}
 
 /*----------- NAVIGATION --------------*/
+a {
+    text-decoration: none;
+  }
+  
+  nav {
+    font-family: monospace;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+  }
+    
+  li a {
+    color: #fff;
+  }
+  
+  li:hover,
+  li:focus-within {
+    cursor: pointer;
+  }
+  
+  li:focus-within a {
+    outline: none;
+  }
+  
+  ul li ul {
+    visibility: hidden;
+    opacity: 0;
+    min-width: 5rem;
+    transition: all 0.5s ease;
+    margin-top: 1rem;
+    left: 0;
+    display: none;
+  }
+  
+  ul li:hover > ul,
+  ul li:focus-within > ul,
+  ul li ul:hover,
+  ul li ul:focus {
+    visibility: visible;
+    opacity: 1;
+    display: block
+  }
+  
+  ul li ul li {
+    clear: both;
+    width: 100%;
+  }
 nav {
     background-color: #666;
 }
@@ -64,6 +115,18 @@ nav ul li.active a {
 }
 #primaryNav.open {
 height: auto;
+}
+#primaryNav li.parent > a::after {
+    content: "\25BC";
+    font-size: .75rem;
+    color: rgba(255,255,255,.5);
+    float:right;
+}
+#primaryNav li ul {
+    display: none;
+}
+#primaryNav li:hover ul {
+    display:block;
 }
 
 /*----------- MAIN --------------*/
@@ -113,6 +176,18 @@ form label.sbs {
     display: block;
     padding: .75rem 0;
     color: #555;
+}
+form label.sbs input, form label.sbs select {
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0, 0, 0, 0.1);
 }
 form input.submitBtn {
     border: none;
