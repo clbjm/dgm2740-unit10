@@ -72,9 +72,6 @@ a {
     clear: both;
     width: 100%;
   }
-nav {
-    background-color: #666;
-}
 nav ul {
     list-style-type: none;
     padding: 0;
