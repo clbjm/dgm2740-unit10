@@ -19,7 +19,6 @@ nav ul li {
 }
 nav ul li a {border: none;
 border-right: 1px solid rgba(175, 175, 175, 0.3);
-background-color: rgb(175, 175, 175);
 padding: .8rem 1rem;
 }
     nav ul {margin-left: 2%;}
