@@ -37,7 +37,7 @@ a {
   }
     
   li a {
-    color: #fff;
+    color: black;
   }
   
   li:hover,
@@ -83,7 +83,6 @@ nav ul li {
 }
 nav ul li a {
     display: block;
-    background-color: #444;
     color: #eee;
     border-left: 1px solid #777;
     padding: .5rem 0;
