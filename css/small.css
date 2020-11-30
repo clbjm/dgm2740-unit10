@@ -113,6 +113,7 @@ background-color: gray;
 }
 #primaryNav.open {
 height: auto;
+background-color: gray;
 }
 #primaryNav li.parent > a::after {
     content: "\25BC";
