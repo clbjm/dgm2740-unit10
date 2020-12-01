@@ -93,7 +93,7 @@ nav ul li a {
 nav ul li:first-child a {border-left: none;}
 
 nav ul li a:hover {
-    color: #333;
+    color: #ddd;
 }
 nav ul li.active a {
     background-color: #000;
