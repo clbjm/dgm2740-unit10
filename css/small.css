@@ -80,6 +80,7 @@ nav ul {
 nav ul li {
     float: left;
     width: 20%;
+flex-direction: column;
 }
 nav ul li a {
     display: block;
@@ -89,6 +90,7 @@ nav ul li a {
     text-decoration: none;
     font-size: .9rem;
     text-align: center;
+flex-direction: column;
 }
 nav ul li:first-child a {border-left: none;}
 
