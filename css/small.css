@@ -82,8 +82,6 @@ nav ul {
 nav ul li {
     float: left;
     width: 20%;
-Position: relative;
-flex-direction: column;
 }
 nav ul li a {
     display: block;
