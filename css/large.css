@@ -48,6 +48,7 @@
         background-color: rgb(175, 175, 175);
         color: #000;
         padding: .8rem 1rem;
+background: transparent;
     }
 
     nav ul {
