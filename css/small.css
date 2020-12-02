@@ -95,6 +95,7 @@ nav ul li:first-child a {border-left: none;}
 
 nav ul li a:hover {
     color: rgb(44, 44, 44);
+Opacity:.8;
 }
 nav ul li.active a {
     background-color: rgb(151, 66, 66);
