@@ -57,6 +57,7 @@ a {
     margin-top: 1rem;
     left: 0;
     display: none;
+Position: absolute;
   }
   
   ul li:hover > ul,
@@ -71,6 +72,7 @@ a {
   ul li ul li {
     clear: both;
     width: 100%;
+
   }
 nav ul {
     list-style-type: none;
@@ -80,6 +82,7 @@ nav ul {
 nav ul li {
     float: left;
     width: 20%;
+Position: relative;
 flex-direction: column;
 }
 nav ul li a {
