@@ -37,7 +37,7 @@ a {
   }
     
   li a {
-    color: #fff;
+    color: black;
   }
   
   li:hover,
@@ -72,22 +72,19 @@ a {
     clear: both;
     width: 100%;
   }
-nav {
-    background-color: #666;
-}
 nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
+    display: grid;
 }
 nav ul li {
     float: left;
-    width: 25%;
+    width: 20%;
 }
 nav ul li a {
     display: block;
-    background-color: #444;
-    color: #eee;
+    Background-color: white;
     border-left: 1px solid #777;
     padding: .5rem 0;
     text-decoration: none;
@@ -97,12 +94,11 @@ nav ul li a {
 nav ul li:first-child a {border-left: none;}
 
 nav ul li a:hover {
-    background-color: #eee;
-    color: #333;
+    color: rgb(44, 44, 44);
 }
 nav ul li.active a {
-    background-color: #000;
-    color: #fff;
+    background-color: rgb(151, 66, 66);
+    color: rgb(41, 41, 41);
 }
 #hamburgerBtn span:nth-child(1) {display: block}
 #hamburgerBtn span:nth-child(2) {display: none}
@@ -119,7 +115,6 @@ height: auto;
 #primaryNav li.parent > a::after {
     content: "\25BC";
     font-size: .75rem;
-    color: rgba(255,255,255,.5);
     float:right;
 }
 #primaryNav li ul {
